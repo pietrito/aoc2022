@@ -12,27 +12,27 @@ mod tests {
 
     #[test]
     fn test_example_1() {
-        assert_eq!(part_1(INPUT), "".to_string());
+        assert_eq!(part_1(INPUT), "");
     }
 
     /*
     #[test]
     fn test_part_1() {
-        assert_eq!(part_1(include_str!("../inputs/")), "".to_string());
+        assert_eq!(part_1(include_str!("../inputs/")), "");
     }
     */
 
     /*
     #[test]
-    fn test_example_1() {
-        assert_eq!(part_1(INPUT), "".to_string());
+    fn test_example_2() {
+        assert_eq!(part_2(INPUT), "");
     }
     */
 
     /*
     #[test]
-    fn test_example_1() {
-        assert_eq!(part_1(INPUT), "".to_string());
+    fn test_part_2() {
+        assert_eq!(part_2(include_str!("../inputs/")), "");
     }
     */
 }
