@@ -3,6 +3,7 @@ use std::{env, fs, process};
 mod common;
 mod day01;
 mod day02;
+mod day03;
 
 use common::Day;
 
