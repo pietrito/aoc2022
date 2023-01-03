@@ -4,16 +4,33 @@ mod common;
 mod day01;
 mod day02;
 mod day03;
+mod day04;
 
 use common::Day;
 
 fn main() {
-    let mut challenges: Vec<Day> = Vec::new();
-    challenges.push(Day {
-        part_1: day01::part_1,
-        part_2: day01::part_2,
-        day_number: 1,
-    });
+    let mut challenges: Vec<Day> = vec![
+        Day {
+            part_1: day01::part_1,
+            part_2: day01::part_2,
+            day_number: 1,
+        },
+        Day {
+            part_1: day02::part_1,
+            part_2: day02::part_2,
+            day_number: 2,
+        },
+        Day {
+            part_1: day03::part_1,
+            part_2: day03::part_2,
+            day_number: 3,
+        },
+        Day {
+            part_1: day04::part_1,
+            part_2: day04::part_2,
+            day_number: 4,
+        },
+    ];
 
     let args: Vec<String> = env::args().collect();
     if args.is_empty() {
